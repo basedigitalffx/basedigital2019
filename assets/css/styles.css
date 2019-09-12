@@ -1,0 +1,253 @@
+#menu:hover {
+  color: #ffffff;
+  background-color: #ff848a;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+#menu:hover {
+  color: #ffffff;
+  background-color: #ff848a;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+#card {
+  text-align: left;
+  background-color: rgb(38,36,36);
+  /*border: 1px #040404 solid;*/
+  box-shadow: 0 .3rem 1rem rgba(0,0,0,.15)!important;
+}
+
+#card a {
+  color: #fa7a80;
+  font-size: 18px;
+}
+
+#card h3 {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#card p {
+  color: #eee;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+#menu-icon {
+  padding-right: 10px;
+}
+
+#titulo {
+}
+
+#icone-home {
+}
+
+.h1, h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 55px;
+  color: rgb(255,253,253);
+  margin-top: 120px;
+  letter-spacing: -.003em;
+}
+
+#coluna p {
+  color: rgb(255,253,253);
+  margin-top: 30px;
+}
+
+@media (min-width: 576px) {
+  #coluna {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  #coluna h1 {
+    font-size: 30px;
+    /*margin-top: 190px;*/
+    margin-bottom: 24px;
+    line-height: 1.08365;
+    text-align: left;
+  }
+}
+
+@media (min-width: 900px) {
+  #coluna h1 {
+    font-size: 50px;
+    margin-top: 190px;
+  }
+}
+
+#coluna p {
+  font-size: 28px;
+  text-align: left;
+  letter-spacing: -1px;
+}
+
+@media (max-width: 576px) {
+  #coluna p {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 360px) {
+  #coluna p {
+    font-size: 18px;
+  }
+}
+
+/*  ---- reset ----  */
+
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/*  ---- particles.js container ----  */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #161616;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/*  ---- stats.js ----  */
+
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+#stats, .count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+
+.projects-horizontal p, h3, a {
+  color: #ffffff;
+}
+
+.newsletter-subscribe p {
+  color: rgb(70,170,171);
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+}
+
+#btn {
+  color: rgb(239,241,244);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #fa7a80 !important;
+  border-color: #fa7a80;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #fa7a80 !important;
+  border-color: #007bff;
+}
+
+#logo2 {
+  width: 120px;
+  padding-bottom: 30px;
+}
+
+#icone-footer {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  border: none;
+}
+
+#icone-equipe a:hover {
+  color: yellow;
+}
+
+@media (max-width:768px) {
+  .navbar-expand-md {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    /*height: 240px;*/
+    background-color: #262424;
+  }
+}
+
+.navbar-expand-md {
+  background-color: #262424;
+}
+
+@media (min-width: 300px) {
+  .logo {
+    width: 180px;
+  }
+}
+
+#text-side li {
+  font-size: 15px;
+}
+
+#text-side li {
+}
+
+#text-side h3 {
+}
+
+#link-btn {
+  color: #96f5e0;
+  font-size: 30px;
+}
+
+#portfolio p {
+  font-family: 'Source Sans Pro';
+  text-align: left;
+}
+
+#portfolio h3 {
+  font-size: 26px;
+  text-align: left;
+  font-family: 'Alfa Slab One';
+  font-weight: 100;
+}
+
