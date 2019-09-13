@@ -1,1 +1,2 @@
-# basedigital2019
+# Base Digital Web
+Agência de web dev/design localizada em SP e SJC.
